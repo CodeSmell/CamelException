@@ -1,7 +1,7 @@
-package camel.exception.config;
+package codesmell.config;
 
-import camel.exception.service.DefaultFooBar;
-import camel.exception.service.FooBar;
+import codesmell.service.DefaultFooBar;
+import codesmell.service.FooBar;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -18,9 +18,9 @@ public class ApplicationConfig {
         return new DefaultFooBar();
     }
 
-    @Bean
-    public static PropertySourcesPlaceholderConfigurer propertyPlaceholderConfigurer() {
-        return new PropertySourcesPlaceholderConfigurer();
-    }
+//    @Bean
+//    public static PropertySourcesPlaceholderConfigurer propertyPlaceholderConfigurer() {
+//        return new PropertySourcesPlaceholderConfigurer();
+//    }
 
 }

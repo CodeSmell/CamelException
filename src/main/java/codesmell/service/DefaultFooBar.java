@@ -1,4 +1,4 @@
-package camel.exception.service;
+package codesmell.service;
 
 public class DefaultFooBar implements FooBar {
 
